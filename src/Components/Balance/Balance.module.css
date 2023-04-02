@@ -1,0 +1,35 @@
+@import url('/src/App.css');
+
+.contentWrapper{
+    width: 500px;
+    height: 115px;
+    border-radius: 15px;
+    background-color: var(--Soft-red);
+    position: relative;
+}
+.balance{
+    display: flex;
+    flex-direction:column;
+    gap: 1rem;
+    justify-content: center;
+    height:inherit;
+    color: var(--Very-pale-orange);
+    padding: 0 2rem;
+}
+.balance> p:first-child{
+    font-size: 18px;
+    font-weight: var(--fw4);
+}
+.balance > p:last-child{
+    font-size: 32px;
+    font-weight: var(--font-weight) ;
+}
+
+.contentWrapper>span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: calc( (115px - 48px) / 2);
+    margin-right: 2rem;
+    
+}
