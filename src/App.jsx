@@ -1,5 +1,4 @@
 import "./App.css";
-import "./resetCSS.css";
 import { Balance } from "./Components/Balance/Balance";
 import Chart from "./Components/Chart/Chart";
 
