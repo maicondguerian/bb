@@ -1,5 +1,4 @@
 import styles from "./chart.module.css";
-import '../../App.css'
 import { Bar } from "react-chartjs-2";
 import data from '../../data.json'
 import {
